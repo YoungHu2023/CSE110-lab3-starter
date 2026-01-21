@@ -3,7 +3,11 @@ c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\datasou
 c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\model\Category.java
 c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\model\Expense.java
 c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\model\Model.java
+c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\presenter\AbstractPresenter.java
+c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\presenter\PresenterManager.java
+c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\presenter\PresenterSwitcher.java
 c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\presenter\SpendingPresenter.java
+c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\presenter\SummaryPresenter.java
 c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\repository\ExpenseRepository.java
 c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\view\SpendingView.java
 c:\Users\Yang\CSE110-lab3-starter\src\main\java\edu\ucsd\spendingtracker\view\SummaryView.java
