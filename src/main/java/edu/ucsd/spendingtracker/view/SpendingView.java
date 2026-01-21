@@ -7,6 +7,7 @@ import javafx.scene.text.*;
 
 public class SpendingView extends BorderPane {
     private VBox listContainer;
+    Button summaryButton = new Button("Summary");
 
 
     public SpendingView() {
@@ -21,7 +22,6 @@ public class SpendingView extends BorderPane {
         ScrollPane scroller = new ScrollPane(listContainer);
         scroller.setFitToWidth(true);
         scroller.setStyle("-fx-background-color: transparent; -fx-background: #FFFFFF;");
-
 
         this.setTop(headerBox);
         this.setCenter(scroller);
@@ -49,5 +49,8 @@ public class SpendingView extends BorderPane {
 
         row.getChildren().addAll(new Label(idx + "."), nameL, catL, amtL);
         listContainer.getChildren().add(row);
+    }
+    public Button getSummaryButton() {
+        return summaryButton;
     }
 }
