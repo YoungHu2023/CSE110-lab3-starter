@@ -15,7 +15,8 @@ public class ExpenseRepository {
         dataSource.addExpense (expense);
     }
 
-    public List<Expense> getExpenses() { return dataSource.getExpenses();
+    public List<Expense> getExpenses() { 
+        return dataSource.getExpenses();
     }
 
     public double getTotal() {
