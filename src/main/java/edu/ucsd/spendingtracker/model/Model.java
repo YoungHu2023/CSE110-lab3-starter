@@ -5,7 +5,8 @@ import edu.ucsd.spendingtracker.repository.ExpenseRepository;
 
 public class Model {
     private final ExpenseRepository repository;
-    public Model (ExpenseRepository repository) { this.repository = repository;
+    public Model (ExpenseRepository repository) { 
+        this.repository = repository;
     }
 
     public void addExpense (Expense e) { repository.addExpense(e);
